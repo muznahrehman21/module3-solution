@@ -1,0 +1,44 @@
+body {
+    padding-top: 50px;
+  }
+  
+  .navbar {
+    margin-bottom: 0;
+  }
+  
+  .navbar-brand {
+    color: #333 !important;
+  }
+  
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .navbar-nav > li {
+    float: none;
+    display: inline-block;
+  }
+  
+  .content-section {
+    background-color: #eeeeee;
+    padding: 20px;
+    height: 1000px; 
+  }
+  
+  @media (max-width: 767px) {
+    .navbar-collapse {
+      background-color: #eee;
+    }
+    
+    .navbar-nav > li {
+      display: block;
+      width: 100%;
+    }
+    
+    .navbar-nav > li > a {
+      display: block;
+      width: 100%;
+    }
+  }
+  
